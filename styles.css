@@ -1,0 +1,23 @@
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search-bar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-button {
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.search-form {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}

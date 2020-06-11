@@ -1,0 +1,1 @@
+This is my first TOD project, visually rebuilding google homepage. For now I do not plan on making it responsive even though I have created simple responsive pages before. I have since focused more on JS side and got rusty about html and css, so I take this as a refresher
