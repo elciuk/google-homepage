@@ -1,23 +1,57 @@
-.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+body {
+    background-color: #fff;
 }
-.search-bar {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.grid-container {
+    display:grid;
+    grid-template-rows: 5vh 82vh 5vh 5vh;
+    height: 95vh;
 }
+.navbar {
+    background-color:blue;
+    grid-row: 1/2;
+}
+.search-form{
+    background-color:red;
+    grid-row: 2/3;
 
-.search-button {
-    display: flexbox;
-    margin-left: auto;
-    margin-right: auto;
-  
 }
-
-.search-form {
+.country {
+    background-color: yellow;
+    grid-row:3/4;
+}
+.info{
+    background-color: green;
+    grid-row:4/5;
+}
+.logo{
     display:block;
-    margin-left: auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 8em;
+}
+.input-field{
+    display:block;
+    margin-left:auto;
     margin-right: auto;
+}
+.bar {
+    width: 40%;
+    border-radius: 10px;
+    height: 2em;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 2em;
+}
+.button{
+    display: block;
+    padding: 5px;
+    margin: 1em 1em 1em 1em;
+
+}
+.buttons{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
 }
