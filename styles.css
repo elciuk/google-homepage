@@ -1,15 +1,55 @@
 body {
     font-family: Liberation Sans;
     background-color: #fff;
+    color: #757575;
+    font-size: 1em;
 }
 .grid-container {
     display:grid;
-    grid-template-rows: 5vh 82vh 5vh 5vh;
+    grid-template-rows: 8vh 78vh 5vh 5vh;
     height: 95vh;
 }
 .navbar {
-    background-color:blue;
+    background-color:#fff;
     grid-row: 1/2;
+    display: block;
+}
+.navbar > img{
+    display:block;
+    float: right;
+    margin: 0 5px 0 5px;
+
+}
+#profile {
+    border-radius: 25px;
+    width: 2.5%;
+    height:auto;
+    margin-right: 2em;
+}
+#square {
+    border-style: solid;
+    margin: 7px 10px 5px 5px;
+}
+#square:hover,#profile:hover {
+    cursor: pointer;
+}
+.navbar > a{
+    color:#414141;
+    display: block;
+    padding: 10px 5px 0px 5px;
+    margin:auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.navbar > a:hover {
+    text-decoration: underline;
+}
+#store, #about{
+    float: left;
+}
+#gmail, #images{
+    float: right;
 }
 .search-form{
     background-color:#fff;
