@@ -63,6 +63,7 @@ body {
     border-width: 1px;
     border-color: lightgrey;
     background-color: #fff;
+    cursor: pointer;
 }
 .buttons{
 
