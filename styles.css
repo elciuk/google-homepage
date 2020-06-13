@@ -1,4 +1,5 @@
 body {
+    font-family: Liberation Sans;
     background-color: #fff;
 }
 .grid-container {
@@ -53,6 +54,7 @@ body {
     border-color: #fff;
     display: block;
     margin: 1em 1em 1em 1em;
+    outline:0;
 }
 .button:hover {
     padding: 6px 15px;
@@ -61,6 +63,7 @@ body {
     border-width: 1px;
     border-color: lightgrey;
     background-color: #fff;
+    outline: 0;
 }
 .buttons{
 
