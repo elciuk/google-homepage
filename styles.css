@@ -56,14 +56,13 @@ body {
     margin: 1em 1em 1em 1em;
     outline:0;
 }
-.button:hover {
+.button:hover{
     padding: 6px 15px;
     border-style:solid;
     border-radius: 3px;
     border-width: 1px;
     border-color: lightgrey;
     background-color: #fff;
-    outline: 0;
 }
 .buttons{
 
