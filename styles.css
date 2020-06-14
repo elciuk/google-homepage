@@ -6,7 +6,7 @@ body {
 }
 .grid-container {
     display:grid;
-    grid-template-rows: 8% 81% 5% 5%;
+    grid-template-rows: 8% 82% 5% 5%;
     height: 100%;
     widht: 100%;
 }
