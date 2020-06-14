@@ -6,8 +6,9 @@ body {
 }
 .grid-container {
     display:grid;
-    grid-template-rows: 8vh 78vh 5vh 5vh;
-    height: 95vh;
+    grid-template-rows: 8% 81% 5% 5%;
+    height: 100%;
+    widht: 100%;
 }
 .navbar {
     background-color:#fff;
@@ -33,7 +34,7 @@ body {
 #square:hover,#profile:hover {
     cursor: pointer;
 }
-.navbar > a{
+.navbar > a, .country > a, .info > a{
     color:#414141;
     display: block;
     padding: 10px 5px 0px 5px;
@@ -42,13 +43,13 @@ body {
     margin-right: 10px;
     text-decoration: none;
 }
-.navbar > a:hover {
+.navbar > a:hover, .country > a:hover, .info > a:hover {
     text-decoration: underline;
 }
-#store, #about{
+.left{
     float: left;
 }
-#gmail, #images{
+.right{
     float: right;
 }
 .search-form{
@@ -57,11 +58,17 @@ body {
 
 }
 .country {
-    background-color: yellow;
+    background-color: fff;
+    border-style:solid none none none;
+    border-width: 1px;
+    border-color: lightgrey;
     grid-row:3/4;
 }
 .info{
-    background-color: green;
+    background-color: fff;
+    border-style:solid none none none;
+    border-width:1px;
+    border-color: lightgrey;
     grid-row:4/5;
 }
 .logo{
